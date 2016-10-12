@@ -1,0 +1,5 @@
+projectKey=Z
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Z
+ceTaskId=AVWkWJhYIBKv00g-oQAu
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVWkWJhYIBKv00g-oQAu

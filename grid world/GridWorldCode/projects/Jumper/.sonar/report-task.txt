@@ -1,0 +1,5 @@
+projectKey=Jumper
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Jumper
+ceTaskId=AVWgm4A2-96jsuVP2cP0
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVWgm4A2-96jsuVP2cP0

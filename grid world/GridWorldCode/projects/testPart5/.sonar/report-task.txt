@@ -1,0 +1,5 @@
+projectKey=Part5
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Part5
+ceTaskId=AVWqzU2DIBKv00g-oQAy
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVWqzU2DIBKv00g-oQAy

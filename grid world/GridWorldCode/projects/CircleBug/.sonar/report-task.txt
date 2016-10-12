@@ -1,0 +1,5 @@
+projectKey=Circle
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Circle
+ceTaskId=AVWkU0F-IBKv00g-oQAo
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVWkU0F-IBKv00g-oQAo

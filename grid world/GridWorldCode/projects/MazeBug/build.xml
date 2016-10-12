@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="MazeBug" default="test" basedir=".">
+   <target name="clean">
+      <delete dir="build"/>
+   </target>
+
+   <target name="compile" depends="clean">
+      <mkdir dir="build/classes"/>
+      <javac srcdir="." destdir="build/classes" includeantruntime="true" classpath="./../../gridworld.jar"/>
+   </target>
+
+   <target name="test" depends="compile">
+      <mkdir dir="report"/>
+      <junit printsummary="true" fork="true">
+         <classpath>
+            <pathelement path="./../../gridworld.jar"/>
+            <pathelement path="build/classes"/>
+         </classpath>
+         <formatter type="plain" usefile="true"/>
+         <test name="JumperTest" todir="report"/>
+      </junit>
+   </target>
+
+
+</project>

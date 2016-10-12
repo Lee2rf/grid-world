@@ -1,0 +1,4 @@
+Testsuite: JumperTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1.054 sec
+
+Testcase: textAct took 1.03 sec

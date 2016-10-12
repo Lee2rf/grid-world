@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project name="ImageTest" default="test" basedir=".">
+   <target name="clean">
+      <delete dir="build"/>
+   </target>
+
+   <target name="compile" depends="clean">
+      <mkdir dir="build/classes"/>
+      <javac srcdir="." destdir="build/classes" includeantruntime="true" classpath="./../ImageReader.jar"/>
+   </target>
+
+   <target name="test" depends="compile">
+      <mkdir dir="report"/>
+      <junit printsummary="true" fork="true">
+         <classpath>
+            <pathelement path="./../ImageReader.jar"/>
+            <pathelement path="build/classes"/>
+         </classpath>
+         <formatter type="plain" usefile="true"/>
+         <test name="ImageTest" todir="report"/>
+      </junit>
+   </target>
+
+</project>
